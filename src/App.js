@@ -5,7 +5,7 @@ import ItemListContainer from "./container/ItemListContainer";
 import NotFound from './views/NotFound';
 import { useState } from 'react';
 import Layout from './views/Layout';
-import Cart from './views/Cart';
+import Cart from './components/Cart';
 import { CartProvider } from "./context/CartContext";
 
 function App() {
